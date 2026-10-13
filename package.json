@@ -1,0 +1,9 @@
+{
+  "name": "402cron-mcp",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Paid cron for AI agents: we call your https URL on schedule, signed. No account, paid with x402.",
+  "homepage": "https://402cron.com",
+  "author": "Georgi Kalchev (https://402cron.com)",
+  "license": "UNLICENSED"
+}
