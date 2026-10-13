@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.402cron/402cron",
+  "description": "Paid cron for AI agents: we call your https URL on schedule, signed. No account, paid with x402.",
+  "title": "402cron",
+  "repository": {
+    "url": "https://github.com/402cron/402cron",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "websiteUrl": "https://402cron.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://402cron.com/mcp"
+    }
+  ]
+}
