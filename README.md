@@ -35,7 +35,7 @@ Any other client: add a remote (Streamable HTTP) server with the URL above.
 | `delete_task` | Move the task to the recycle bin. |
 | `restore_task` | Bring a task back from the recycle bin within 30 days. |
 | `register_destination` | Claim an https:// URL you control. |
-| `verify_destination` | Verification is one request from us to the exact URL you registered: POST, headers X-402cron-Challenge: <value> and X-402cron-Event: verify, JSON body {"challenge":"<value>"}. |
+| `verify_destination` | Prove you control a claimed URL: we send it one POST with the challenge, and it answers with the same value. |
 | `list_destinations` | The URLs you have claimed and whether each is verified. |
 | `delete_destination` | Remove a claimed URL. |
 

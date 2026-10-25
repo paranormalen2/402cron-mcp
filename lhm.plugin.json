@@ -16,6 +16,13 @@
         "type": "object",
         "properties": {},
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Pricing and payment requirements",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -41,6 +48,13 @@
           }
         },
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Machine documentation",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -51,6 +65,13 @@
         "type": "object",
         "properties": {},
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Is the service selling right now",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -74,6 +95,13 @@
           }
         },
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "List your scheduled tasks",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -92,6 +120,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "One task with its full state",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -135,6 +170,13 @@
           "url"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Create or update a scheduled task",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": true
       }
     },
     {
@@ -180,6 +222,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Edit a task",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": true
       }
     },
     {
@@ -198,6 +247,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Pause a task",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -216,6 +272,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Resume a paused task",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": true
       }
     },
     {
@@ -234,6 +297,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Fire a task once, right now",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": true
       }
     },
     {
@@ -252,6 +322,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Delete a task",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -270,6 +347,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Restore a deleted task",
+        "readOnlyHint": false,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -288,6 +372,13 @@
           "url"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Register a destination URL",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": false
       }
     },
     {
@@ -306,6 +397,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Verify a registered destination",
+        "readOnlyHint": false,
+        "destructiveHint": false,
+        "idempotentHint": false,
+        "openWorldHint": true
       }
     },
     {
@@ -316,6 +414,13 @@
         "type": "object",
         "properties": {},
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "List your destinations",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     },
     {
@@ -334,6 +439,13 @@
           "id"
         ],
         "additionalProperties": false
+      },
+      "annotations": {
+        "title": "Delete a destination",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": false
       }
     }
   ],
